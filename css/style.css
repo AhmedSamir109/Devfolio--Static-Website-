@@ -1,0 +1,304 @@
+.bg-mine{
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ), url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body {
+    background-color: #f5f5f5;
+    color: #4e4e4e;
+    
+}
+.fs-h1{
+    font-size: 70px;
+}
+
+.animation::before{
+    content:'';
+    animation: typing 10s infinite ;
+ }
+ 
+ @keyframes typing{
+     0%{
+       content:'De' ;  
+     }
+ 
+     5%{
+         content: 'Desi';
+     }
+     10%{
+         content: 'Design';
+     }
+     15%{
+         content: 'Designer';
+     }
+     20%{
+         content:'';
+     }
+ 
+     25%{
+         content: 'De';
+     }
+ 
+     30%{
+         content: 'Deve';
+     }
+ 
+     35%{
+         content: 'Develo';
+     }
+ 
+     40%{
+         content: 'Developer';
+     }
+     45%{
+         content: '';
+     }
+ 
+     50%{
+         content:'Fre';
+     }
+     55%{
+         content:'Freel';
+     }
+     60%{
+         content:'Freelanc';
+     }
+     65%{
+         content:'Freelancer';
+     }
+     70%{
+         content:'';
+     }
+ 
+ 
+     75%{
+         content:'Pho';
+     }
+     80%{
+         content:'Photo';
+     }
+     85%{
+         content:'Photogr';
+     }
+     90%{
+         content:'Photograph';
+     }
+     95%{
+         content:'Photographer';
+     }
+     100%{
+         content:'';
+     }
+ 
+ }
+
+ .animation-fs{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+
+
+
+
+span{
+    width: 40px;
+    height: 5px;
+    background-color: #007aff;
+    display: block;
+    margin: auto;
+}
+.span_line{
+    width: 110px;
+    height: 3px;
+    background-color: #007aff;
+    display: block;
+    margin: 0;
+}
+/* .bg-backg{
+    
+    background-image: url(../images/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.bg-backg2{
+    background-color: #0078ff;
+} */
+
+
+.Section_Four{
+    position: relative;
+}
+.bg-image{
+    background-image: url(../images/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;  
+    background-attachment: fixed;
+    
+}
+.bg-cover-image{
+     position: absolute; 
+     background-color: #007aff;
+     width: 100%;
+     height: 100%;
+     opacity: 0.7;
+}
+
+.divimg{
+    overflow: hidden;
+    
+}
+.card-mine:hover img{
+    
+    transform: scale(1.5);
+    transition: 1.5s ;
+    transition-timing-function: linear;
+
+}
+.card{
+    border-radius:unset;
+}
+
+.w-mine{
+    width: 35px;
+} 
+.w-mine-div{
+    height: 42px;
+}
+.card-style{
+    background-color: #007aff;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 4px;
+    top: -15px;
+}
+.pr-mine{
+    border-radius: unset !important;
+}
+.bg-image-eight{
+    background-image: url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.m-mine{
+    margin-top: 6rem;
+    margin-bottom: 6rem ;
+}
+.carousel-indicators [data-bs-target]{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.progress{
+    border-radius: unset;
+    height: 0.8rem;
+}
+.rounded-mine{
+    border-radius: 16px;
+}
+.Section-There i{
+    /* background-color: tomato; */
+    padding: 32px;
+    font-size: 45px;
+    border-radius: 50%;
+    border: 10px solid #007aff;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+.Section-There i:hover{
+
+    border-color:turquoise;
+    background-color: #007aff;
+    color: white;
+}
+.Section_Four i{
+    
+    padding: 18px;
+    font-size: 25px;
+    border-radius: 50%;
+    border: 10px solid white;
+    margin-bottom: 10px;
+
+}
+.Section_five i{
+    background-color: #007aff;
+    font-size: 30px;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid #0078ff;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.Section_five p{
+    font-size: 12px;
+}
+.Section_five h5{
+    font-size: 19px;
+}
+.social i{
+
+    font-size: 25px;
+    padding: 8px;
+    border: 3px solid #0078ff;
+    border-radius: 50%;
+    color: black;
+}
+.social i:hover{
+    background-color: #0078ff;
+    border-color: aquamarine;
+}
+.Section_eight ul i{
+    color: #0078ff;
+}
+.center-header{
+    width: fit-content;
+    top: -15px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.Arrow{
+    background-color: #0078ff;
+    font-size: 20px;
+    padding: 10px 12px;
+    border-radius: 50%;
+    color: white;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+/* .border-hover{
+    border: 1px solid white;
+    position: relative;
+    /* display: none; 
+   
+}
+*/
+/*.Section_one ul li:hover .border-hover{
+    /* display: block;
+    transform: translate(100px); 
+    
+} 
+*/
+.un::after{
+   content: "";
+   width: 0px;
+   height: 2px;
+   background-color: white;
+   display: block;
+   transition: 0.5s;
+   margin-top: 5px;
+}
+.un:hover::after{
+     width: 85%;
+}
